@@ -83,6 +83,6 @@ def make_circle():
     pass
 
 while True:
-    #make_rectangle()
+    make_rectangle()
     make_circle()
 close_canvas()
