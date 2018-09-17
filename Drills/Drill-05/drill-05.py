@@ -18,6 +18,13 @@ def move_from_center_to_right():
     pass
 
 def move_up():
+    x, y = 800 -25, 90
+    while y < 600 - 50:
+        clear_canvas_now()
+        grass.draw_now(400, 30)
+        character.draw_now(x, y)
+        y += 2
+        delay(0.01)
     pass
 
 def move_down():
@@ -30,7 +37,7 @@ def move_right():
     pass
 
 def make_rectangle():
-    move_from_center_to_right()
+    # move_from_center_to_right()
     move_up()
     move_left()
     move_down()
