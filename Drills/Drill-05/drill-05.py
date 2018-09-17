@@ -58,10 +58,10 @@ def move_right():
     pass
 
 def make_rectangle():
-    # move_from_center_to_right()
-    # move_up()
-    # move_left()
-    # move_down()
+    move_from_center_to_right()
+    move_up()
+    move_left()
+    move_down()
     move_right()
     pass
 def make_circle():
